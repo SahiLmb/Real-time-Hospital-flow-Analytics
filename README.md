@@ -39,7 +39,7 @@ The solution bridges **data engineering** and **data analytics**—from ingestio
 
 ## Pipeline
 
-<img width="4719" height="2432" alt="Architecture" src="https://github.com/" />
+<img width="4719" height="2432" alt="Architecture" src="https://github.com/SahiLmb/Real-time-Hospital-flow-Analytics/blob/main/Architecture%20Diagram/Flowchart.jpg" />
 
 
 ---
@@ -83,7 +83,7 @@ real-time-patient-flow-azure/
 ---
 
 ## 🏗️ Data Architecture
-The pipeline follows a **multi-layered architecture**:
+The pipeline follows a **medallion architecure**:
 - **Bronze Layer**: Raw JSON data from Event Hub stored in ADLS.
 - **Silver Layer**: Cleaned and structured data (validated types, null handling).
 - **Gold Layer**: Created analytical models and star schema tables for BI.
@@ -133,7 +133,7 @@ The **Gold layer** data in Synapse follows a **star schema** for optimized analy
 ### **5. Synapse SQL Pool**
 - Created **dedicated SQL Pool**.
 - Executed schema and fact/dimension creation queries from:
-  - [DDL_Queries](sqlpool-queries/SQL_queries.sql)
+  - [DDL_Queries](sqlpool-queries/sql_queries.sql)
 
 ---
 
