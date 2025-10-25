@@ -63,11 +63,12 @@ real-time-patient-flow-azure/
 │   └── 03_gold_transform.py
 ├── simulator/             # Data simulation scripts
 │   └── patient_flow_generator.py
-├── powerbi/             # Powerbi Report
+├── powerbi/               # Powerbi Report
 │   └── Hospital_dashboard.pbix
-├── sqlpool-queries/        # SQL scripts for Synapse
+├── sqlpool-queries/       # SQL scripts for Synapse
 │   └── SQL_queries.sql
-├── Architecure Diagram/FLowchart                  # Flowchart
+├── Architecure Diagram/   # Flowchart
+│   └──Flowchart 
 └── README.md              # Project documentation
 ```
 
