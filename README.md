@@ -133,7 +133,7 @@ The **Gold layer** data in Synapse follows a **star schema** for optimized analy
 ### **5. Synapse SQL Pool**
 - Created **dedicated SQL Pool**.
 - Executed schema and fact/dimension creation queries from:
-  - [DDL_Queries](sqlpool-queries/SQL_queries.sql)
+  - [DDL_Queries](sqlpool-queries/sql_queries.sql)
 
 ---
 
